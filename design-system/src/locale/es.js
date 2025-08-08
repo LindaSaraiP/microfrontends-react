@@ -1,0 +1,32 @@
+// En tu paquete @asix/design-system
+export const primeLocaleES = {
+  firstDayOfWeek: 0,
+  dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+  dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+  dayNamesMin: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
+  monthNames: [
+    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
+  ],
+  monthNamesShort: [
+    'ene', 'feb', 'mar', 'abr', 'may', 'jun',
+    'jul', 'ago', 'sep', 'oct', 'nov', 'dic'
+  ],
+  today: 'Hoy',
+  clear: 'Limpiar',
+  // PROPIEDADES CLAVE QUE RESUELVEN EL ERROR:
+  chooseDate: 'Seleccionar fecha',
+  chooseMonth: 'Seleccionar mes',
+  chooseYear: 'Seleccionar año',
+  prevDecade: 'Década anterior',
+  nextDecade: 'Próxima década',
+  prevYear: 'Año anterior',
+  nextYear: 'Próximo año',
+  prevMonth: 'Mes anterior',
+  nextMonth: 'Próximo mes',
+  accept: 'Aceptar',
+  reject: 'Cancelar',
+  // Otras propiedades recomendadas:
+  dateFormat: 'dd/mm/yy',
+  weekHeader: 'Sem'
+};

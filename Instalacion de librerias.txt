@@ -1,0 +1,20 @@
+npm init -y
+npm install react@18.2.0 react-dom@18.2.0
+npm install primereact primeicons classnames
+npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin babel-loader @babel/core @babel/preset-env @babel/preset-react css-loader style-loader
+
+
+
+Para desarrollo local: 
+npm link @asix/design-system
+import '@asix/design-system';
+
+
+npm run build:css
+npm link
+
+npm install react-transition-group
+
+
+
+ json-server --watch db.json --port 3003

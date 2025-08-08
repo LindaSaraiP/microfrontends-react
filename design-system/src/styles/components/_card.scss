@@ -1,0 +1,18 @@
+@use '../variables/scss-variables' as *;
+
+.project-search-card {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(243, 250, 255) !important;
+}
+
+.project-search-card .p-card-content {
+  padding: 0rem !important; 
+}
+
+.invisible-label {
+  visibility: hidden;
+  height: 1rem;
+}

@@ -1,0 +1,80 @@
+@use '../variables/scss-variables' as *;
+
+
+.p-dropdown {
+  position: relative;
+  border: 1px solid var(--color-base);
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+
+  .p-dropdown-label {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .p-dropdown-trigger {
+    position: absolute;
+    top: 50%;
+    right: 0.2rem;
+    transform: translateY(-50%);
+    color: var(--color-accent);
+    pointer-events: none;
+  }
+}
+
+.p-dropdown-panel {
+  position: absolute !important;
+  width: 45% !important;
+  max-width: 100% !important;
+}
+
+.p-dropdown-items-wrapper {
+  max-height: 16rem;
+  overflow-y: auto;
+}
+
+.p-dropdown-item {
+  padding: 0.75rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+
+  &:hover {
+    background-color: rgba(var(--color-accent-rgb), 0.15);
+    color: #000;
+  }
+}
+
+.p-dropdown-item.p-highlight {
+  background-color: rgba(var(--color-accent-rgb), 0.2) !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+}
+
+.p-dropdown-item.p-highlight:hover {
+  background-color: rgba(var(--color-accent-rgb), 0.3) !important;
+}
+
+.p-dropdown.p-focus,
+.p-dropdown.p-dropdown-open {
+  border-color: var(--color-accent);
+  background-color: rgba(var(--color-accent-rgb), 0.1);
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-accent-rgb), 0.2);
+
+  .p-dropdown-label,
+  .p-dropdown-trigger {
+    color: var(--color-accent);
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "objetivos": [
+    {
+      "id": "1",
+      "nombre": "2021 CHGS Garantizar que los datos y estadística relacionada con gente estén actualizados, sistematizados y sean útiles para la toma de decisiones."
+    },
+    {
+      "id": "2",
+      "nombre": "2021 CHGS Asegurar que los Directivos de unidades gestionen con base en el modelo de desempeño."
+    },
+    {
+      "id": "3",
+      "nombre": "2021 CH AyC. Gestionar a los equipos Directivos de Alto Desempeño cuidando la implementación de los 6 pasos."
+    },
+    {
+      "id": "4",
+      "nombre": "2021 CH BOFF Fortalecer una cultura de alto desempeño impulsando la adopción del modelo de los 6 pasos."
+    },
+    {
+      "id": "5",
+      "nombre": "2021 CH BOF2 Fortalecer una cultura de alto desempeño impulsando la adopción del modelo de los 6 pasos para la gerencia."
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "1",
+      "nombre": "Implementación de CRM",
+      "descripcion": "Proyecto para mejorar la relación con los clientes usando un CRM moderno.",
+      "objetivoId": 1,
+      "fechaInicio": "2025-07-01",
+      "fechaFin": "2025-12-31",
+      "responsableId": 1,
+      "administradorId": 1,
+      "involucradosIds": [
+        2,
+        3
+      ],
+      "capex": 100000,
+      "opex": 50000,
+      "pilarId": 2,
+      "clasificacionId": 3
+    }
+  ],
+  "administradores": [
+    {
+      "id": "1",
+      "nombre": "José Amador Sanchez"
+    },
+    {
+      "id": "2",
+      "nombre": "Jorge Torres Romero"
+    }
+  ],
+  "involucrados": [
+    {
+      "id": "1",
+      "nombre": "Carlos Rivera Cruz "
+    },
+    {
+      "id": "2",
+      "nombre": "Johana Diaz Suarez"
+    },
+    {
+      "id": "3",
+      "nombre": "Andrea Qincho Pérez"
+    }
+  ],
+  "responsables": [
+    {
+      "id": "1",
+      "nombre": "Linda Pérez Moreno"
+    },
+    {
+      "id": "2",
+      "nombre": "Éber Villegas Muñoz"
+    },
+    {
+      "id": "3",
+      "nombre": "César Sánchez Alvarez"
+    }
+  ],
+  "pilares": [
+    {
+      "id": "1",
+      "nombre": "Crecimiento sostenible"
+    },
+    {
+      "id": "2",
+      "nombre": "Transformación digital"
+    },
+    {
+      "id": "3",
+      "nombre": "Excelencia operativa"
+    }
+  ],
+  "clasificaciones": [
+    {
+      "id": "1",
+      "nombre": "Comité Estratégico"
+    },
+    {
+      "id": "2",
+      "nombre": "Comité Operativo"
+    },
+    {
+      "id": "3",
+      "nombre": "Comité de Tecnología"
+    }
+  ],
+  "etapas": [
+    {
+      "titulo": "Etapa 1",
+      "descripcion": "Descripcion de la etapa",
+      "entregable": "Requerimientos",
+      "fechaInicio": "2025-08-06T06:00:00.000Z",
+      "fechaFin": "2025-08-06T06:00:00.000Z",
+      "id": "ff87"
+    },
+    {
+      "id": "10dd",
+      "titulo": "lmdv",
+      "descripcion": "lmdq;l",
+      "entregable": "md",
+      "fechaInicio": "2025-08-07T06:00:00.000Z",
+      "fechaFin": "2025-08-07T06:00:00.000Z"
+    },
+    {
+      "id": "a4b6",
+      "titulo": "cMN",
+      "descripcion": "NXKL",
+      "entregable": "KNX",
+      "fechaInicio": "2025-08-07T06:00:00.000Z",
+      "fechaFin": "2025-08-07T06:00:00.000Z"
+    },
+    {
+      "id": "60f6",
+      "titulo": "CFAKNQ",
+      "descripcion": "KNCLKQ",
+      "entregable": "KCLKF",
+      "fechaInicio": "2025-08-07T06:00:00.000Z",
+      "fechaFin": "2025-08-07T06:00:00.000Z"
+    }
+  ]
+}

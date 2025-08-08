@@ -1,0 +1,40 @@
+@use '../variables/scss-variables' as *;
+
+.project-button {
+  background-color: $color-accent;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: normal !important;
+  font-size: 1rem;
+  color: #000;
+  transition: filter 0.3s ease, box-shadow 0.2s ease;
+  margin-left: 0;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.project-button,
+.project-button * {
+  font-weight: normal !important;
+}
+
+.button-wrapper {
+  margin: 1rem 0;
+}
+
+.full-height {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
