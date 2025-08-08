@@ -115,30 +115,6 @@
       "fechaInicio": "2025-08-06T06:00:00.000Z",
       "fechaFin": "2025-08-06T06:00:00.000Z",
       "id": "ff87"
-    },
-    {
-      "id": "10dd",
-      "titulo": "lmdv",
-      "descripcion": "lmdq;l",
-      "entregable": "md",
-      "fechaInicio": "2025-08-07T06:00:00.000Z",
-      "fechaFin": "2025-08-07T06:00:00.000Z"
-    },
-    {
-      "id": "a4b6",
-      "titulo": "cMN",
-      "descripcion": "NXKL",
-      "entregable": "KNX",
-      "fechaInicio": "2025-08-07T06:00:00.000Z",
-      "fechaFin": "2025-08-07T06:00:00.000Z"
-    },
-    {
-      "id": "60f6",
-      "titulo": "CFAKNQ",
-      "descripcion": "KNCLKQ",
-      "entregable": "KCLKF",
-      "fechaInicio": "2025-08-07T06:00:00.000Z",
-      "fechaFin": "2025-08-07T06:00:00.000Z"
     }
   ]
 }

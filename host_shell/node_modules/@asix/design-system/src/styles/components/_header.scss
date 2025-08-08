@@ -1,0 +1,124 @@
+@use '../variables/scss-variables' as *;
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+// Línea amarilla superior
+.header-top-line {
+  height: 2px;
+  background-color: var(--color-accent);
+  width: 100%;
+  margin: 0;
+}
+
+// Menubar 
+.p-menubar {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: stretch;
+}
+
+// Botón hamburguesa 
+.menu-button {
+  background-color: var(--color-accent);
+  border: none;
+  width: 48px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 0;
+}
+
+.menu-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.p-menubar-button {
+  display: none !important;
+}
+
+
+.p-menubar-root {
+  flex-wrap: nowrap !important;
+}
+
+
+.p-menubar .p-menubar-root {
+  flex-direction: row !important;
+  overflow-x: auto;
+}
+
+
+// Icono menú 
+.menu-item-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.menu-item-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 24px;
+  background-color: #aaa;
+}
+
+// Avatar (imagen de usuario)
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-accent);
+}
+
+// Sidebar 
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.sidebar-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.sidebar-button:hover {
+  background-color: #f0f0f0;
+}

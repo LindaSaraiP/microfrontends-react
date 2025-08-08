@@ -20,7 +20,7 @@ if (!window.primeReact) {
 if (!window.primeReact.locales?.es) {
   console.log('[HOST] Configurando locale ES para PrimeReact');
   addLocale('es', primeLocaleES);
-  window.primeReact.locales.es = primeLocaleES; // 👈 Asegura que esté registrado manualmente
+  window.primeReact.locales.es = primeLocaleES; 
 } else {
   console.log('[HOST] Ya estaba configurado el locale ES en primeReact');
 }

@@ -10,6 +10,8 @@ import { useFormProject } from '../hooks/useFormProject';
 import infoIcon from '../assets/icons/informacion.svg';
 import calendarIcon from '../assets/icons/calendario.svg';
 
+
+
 export default function FormProject() {
   const { proyecto, objetivos, handleChange, handleGuardarProyecto } = useFormProject();
 
@@ -70,6 +72,7 @@ export default function FormProject() {
               showIcon 
               icon={() => <img src={calendarIcon} alt="calendar" className="calendar-icon" />}
               className="calendar-fullwidth"
+             
             />
           </div>
         </div>
@@ -86,6 +89,7 @@ export default function FormProject() {
               showIcon 
               icon={() => <img src={calendarIcon} alt="calendar" className="calendar-icon" />}
               className="calendar-fullwidth"
+              
            />
           </div>
         </div>

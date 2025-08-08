@@ -43,7 +43,7 @@ module.exports = {
         './FormStage': './src/App',
       },
       remotes: {
-        //host_shell: 'host_shell@http://localhost:3000/remoteEntry.js',
+        host_shell: 'host_shell@http://localhost:3000/remoteEntry.js',
       },
       shared: {
         react: { singleton: true, requiredVersion: '^18.2.0' },

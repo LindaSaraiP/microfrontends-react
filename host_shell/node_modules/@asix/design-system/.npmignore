@@ -1,0 +1,6 @@
+# .npmignore
+node_modules
+*.log
+dist
+src/
+*.scss

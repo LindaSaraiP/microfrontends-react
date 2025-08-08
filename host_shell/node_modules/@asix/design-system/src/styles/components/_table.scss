@@ -1,0 +1,115 @@
+@use '../variables/scss-variables' as *;
+
+.etapas-container {
+  padding: 1rem;
+}
+
+.etapas-title {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.etapas-card-prime {
+  background: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .p-card-content {
+    padding: 0 !important;
+  }
+}
+
+.etapas-table-prime {
+  width: 100%;
+
+  .p-datatable-thead > tr > th {
+    display: table-cell !important;
+    text-align: center !important;
+    vertical-align: middle;
+    background-color: var(--color-gray);
+    color: black;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+
+    &:first-child {
+      border-left: none;
+    }
+    &:last-child {
+      border-right: none;
+    }
+
+    .p-column-title {
+      display: block;
+      width: 100%;
+      text-align: center !important;
+    }
+
+    .table-icon {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .p-datatable-tbody > tr > td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    padding: 0.75rem;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+
+    &:first-child {
+      border-left: none;
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.center-header {
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+.table-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-icon-text {
+  background: none;
+  border: none;
+  color: black;
+  font-weight: normal;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.paginator-custom {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+
+  .p-paginator {
+    font-size: 0.85rem;
+
+    .p-paginator-prev,
+    .p-paginator-next,
+    .p-paginator-first,
+    .p-paginator-last {
+      color: var(--color-accent) !important;
+    }
+
+    .p-highlight {
+      font-weight: bold;
+      border-color: var(--color-accent);
+    }
+  }
+}

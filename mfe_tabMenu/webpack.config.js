@@ -50,6 +50,7 @@ module.exports = {
           mfe_projectplan: 'mfe_projectplan@http://localhost:3006/remoteEntry.js',
           mfe_formprojectstage: 'mfe_formprojectstage@http://localhost:3004/remoteEntry.js',
           mfe_teamassignment: 'mfe_teamassignment@http://localhost:3008/remoteEntry.js',
+          host_shell: 'host_shell@http://localhost:3000/remoteEntry.js', 
         },
       shared: {
         react: { singleton: true, requiredVersion: '^18.2.0' },
