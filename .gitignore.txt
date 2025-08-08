@@ -7,6 +7,7 @@ mfe_projectplan/node_modules/
 mfe_tabMenu/node_modules/
 mfe_teamassignment/node_modules/
 mfe_formprojectsearchbyid/node_modules/
+**/node_modules/
 
 # Archivos temporales de sistema operativo
 .DS_Store
